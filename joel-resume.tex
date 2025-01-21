@@ -24,6 +24,8 @@
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
 
+\usepackage{hyperref}
+
 % Change the font if you want to, depending on whether
 % you're using pdflatex or xelatex/lualatex
 % WHEN COMPILING WITH XELATEX PLEASE USE
@@ -159,11 +161,19 @@
 
 \cvsection{Projects}
 
-\cvevent{Project 1}{Funding agency/institution}{}{}
+\cvevent{Waldo}{React, Typescript, and Jest}{}{}
 \begin{itemize}
-\item Details
+\item Where's Waldo game created using React
+\item \href{https://joel-singh.github.io/waldo}{\underline{Demo}} \href{https://github.com/Joel-Singh/waldo}{\underline{Source}}
 \end{itemize}
+\divider
 
+\cvevent{Florally Great}{CRUD, Express, MongoDB, Typescript, TDD with Jest}{}{}
+\begin{itemize}
+\item Flower-themed Express app
+\item Implements CRUD with Mongoose
+\item \href{joel-singh.com}{\underline{Demo}} \href{joel-singh.com}{\underline{Source}}
+\end{itemize}
 \divider
 
 \cvevent{Project 2}{Funding agency/institution}{Project duration}{}
@@ -209,11 +219,11 @@ A short abstract would also work.
 
 \cvsection{Education}
 
-\cvevent{HS Degree}{East Ridge HS}{2020 - 2024}{}
+\cvevent{B.S. Computer Science}{Denison University}{2024 - Current}{}
 
 \divider
 
-\cvevent{B.S. Computer Science}{Denison University}{2024 - Current}{}
+\cvevent{HS Degree}{East Ridge HS}{2020 - 2024}{}
 
 
 \end{paracol}
